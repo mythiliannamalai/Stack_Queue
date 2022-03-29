@@ -26,6 +26,8 @@ namespace Stack_Queue
             queue.display();
             queue.Top();
             queue.display();
+            queue.dequeue();
+            queue.display();
 
         }
     }

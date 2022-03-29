@@ -27,6 +27,10 @@ namespace Stack_Queue
             var val = linkedList.Head;
             Console.WriteLine("\n",+val.data);
         }
+        public void dequeue()
+        {
+            linkedList.Remove_();
+        }
 
     }
 }

@@ -34,10 +34,19 @@ namespace Stack_Queue
             {
                 Console.WriteLine("stack is empty");
             }
-            Console.WriteLine("\n pop {0}",Head.data);
+            Console.WriteLine("\n pop : {0}",Head.data);
             Head=Head.next;
         }
-       
+        public void Remove_()
+        {
+            if (Head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            Console.WriteLine("\n dequeue: {0}", Head.data);
+            Head = Head.next;
+        }
+
         public void display()
         {
             Node temp = Head;
