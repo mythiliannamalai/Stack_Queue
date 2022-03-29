@@ -19,6 +19,14 @@ namespace Stack_Queue
             stack.Pop(node2);
             stack.Pop(node3);
             stack.displayStack();
+            Queue queue = new Queue();
+            queue.enqueue(node1);
+            queue.enqueue(node2);
+            queue.enqueue(node3);
+            queue.display();
+            queue.Top();
+            queue.display();
+
         }
     }
 }

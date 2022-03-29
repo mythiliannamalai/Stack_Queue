@@ -20,7 +20,7 @@ namespace Stack_Queue
         
         public void displayStack()
         {            
-            linkedList.Stackdisplay();
+            linkedList.display();
         }
         public void Top()
         {

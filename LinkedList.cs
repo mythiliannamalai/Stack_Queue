@@ -37,7 +37,8 @@ namespace Stack_Queue
             Console.WriteLine("\n pop {0}",Head.data);
             Head=Head.next;
         }
-        public void Stackdisplay()
+       
+        public void display()
         {
             Node temp = Head;
             if (temp == null)
