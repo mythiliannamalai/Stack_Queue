@@ -28,6 +28,15 @@ namespace Stack_Queue
                 Head = node;
             }
         }
+        public void Remove()
+        {
+            if (Head == null)
+            {
+                Console.WriteLine("stack is empty");
+            }
+            Console.WriteLine("\n pop {0}",Head.data);
+            Head=Head.next;
+        }
         public void Stackdisplay()
         {
             Node temp = Head;

@@ -15,13 +15,21 @@ namespace Stack_Queue
         }
         public void push(Node node)
         {
-            linkedList.AddNode(node);
+            linkedList.AddNode(node);          
         }
+        
         public void displayStack()
-        {
-            Console.WriteLine("\n\nStack");
+        {            
             linkedList.Stackdisplay();
         }
-
+        public void Top()
+        {
+            var val = linkedList.Head;          
+            Console.WriteLine("\n Top",+val.data);
+        }
+        public void Pop(Node node)
+        {
+            linkedList.Remove();
+        }
     }
 }
